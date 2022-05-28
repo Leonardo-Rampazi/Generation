@@ -10,7 +10,7 @@ programa
       	leia(a)
       	escreva("Entre com o segundo número \n")
       	leia(b)
-      	escreva("Entre com o terceiro número \n")
+      	escreva("Entre com o terceiro número: \n")
       	leia(c)
       	r=(a+b)^2
       s=(b+c)^2
@@ -23,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 344; 
+ * @POSICAO-CURSOR = 345; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
