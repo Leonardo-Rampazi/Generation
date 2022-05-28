@@ -3,11 +3,14 @@ programa
 {
 
 	funcao inicio()
-	{
+	{ //1. Faça um sistema que leia a idade de uma pessoa expressa em anos, meses e
+//dias e mostre-a expressa apenas em dias.
 		        inteiro idadeAnos, idadeMeses, idadeDias, anosEmDias, mesesEmDias, idadeFinal
-        escreva("Digite sua idade em anos, meses e dias: \n")
+        escreva("Digite sua idade em anos: \n")
         leia(idadeAnos)
+        escreva ("Digite quantos meses já passou depois do aniversário: \n")
         leia(idadeMeses)
+        escreva ("Digite quantos dias se passou do mês: \n")
         leia(idadeDias)
         anosEmDias = idadeAnos *365
         mesesEmDias = idadeMeses * 30
@@ -21,7 +24,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 288; 
+ * @POSICAO-CURSOR = 474; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
