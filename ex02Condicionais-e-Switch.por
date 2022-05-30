@@ -3,17 +3,21 @@ programa
 	
 	funcao inicio()
 	{
-	real pesoLimite = 50.0,peso,excesso,multa
-escreva ("Digite a quantidade de kgs de peixe que joão trouxe: ")
-	leia (peso)
-	se (peso >pesoLimite){
-		excesso = peso - pesoLimite
-		multa = excesso * 4.00
-escreva ("Multa foi de "+multa+" Reais")
-	}
-	senao {
-escreva ("Correto kilos: "+peso+"\nDentro do acordo")
-	}
+		real c, n, excendente, sal, hex
+escreva("digite o numero de horas trabalhadas: ")
+leia(n)
+
+se (n>50) {
+excendente= n-50
+hex= excendente*20
+sal= 50*10
+escreva(" Salário Total e Excedente: " +sal, +hex)
+}
+senao {
+excendente= 0
+sal= n*10
+escreva ("Salario Total e Excedente: "+ sal, excendente)
+}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -21,7 +25,7 @@ escreva ("Correto kilos: "+peso+"\nDentro do acordo")
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 355; 
+ * @POSICAO-CURSOR = 186; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
