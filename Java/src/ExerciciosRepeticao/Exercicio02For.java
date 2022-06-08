@@ -1,4 +1,4 @@
-package br.com.generation.Exercicio03repeticao;
+package ExerciciosRepeticao;
 import java.util.Scanner;
 /*2- Ler 10 números e imprimir quantos são pares e quantos são ímpares. (FOR)*/
 public class Exercicio02For {
