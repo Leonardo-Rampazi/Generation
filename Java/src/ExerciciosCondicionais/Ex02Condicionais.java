@@ -1,4 +1,4 @@
-package Exercicios02Condicionais;/*2- Faça um programa que entre com três números e coloque em ordem crescente.*/
+package ExerciciosCondicionais;/*2- Faça um programa que entre com três números e coloque em ordem crescente.*/
 import javax.swing.JOptionPane;
 public class Ex02Condicionais {
 

@@ -1,4 +1,4 @@
-package Exercicios02Condicionais; /*1- Faça um programa que receba três inteiros e diga qual deles é o maior.*/
+package ExerciciosCondicionais; /*1- Faça um programa que receba três inteiros e diga qual deles é o maior.*/
 import javax.swing.JOptionPane;
 public class Ex01Condicionais {
 
