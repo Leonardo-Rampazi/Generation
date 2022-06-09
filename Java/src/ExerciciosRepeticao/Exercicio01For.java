@@ -7,7 +7,7 @@ public class Exercicio01For {
 		
 		for (int i=1000; i < 2000; i++){
 		    if (i%11==5) {
-		        System.out.println("Numero divido por 11 obetendo o resto de 5: = "+i);
+		        System.out.println("Numero divido por 11 obetendo o resto de 5 são = "+i);
 		    }
 		}
 
