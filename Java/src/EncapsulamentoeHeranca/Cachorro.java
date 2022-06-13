@@ -3,6 +3,10 @@ package EncapsulamentoeHeranca;
 public class Cachorro extends Animal {
 private String deveCorrer;
 
+public void deveEmitirSom(Cachorro Cachorro) {
+	System.out.println("Au Au Au !");
+ }
+
 public String getDeveCorrer() {
 	return deveCorrer;
 }

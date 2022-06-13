@@ -3,7 +3,9 @@ package EncapsulamentoeHeranca;
 public class Animal {
 	 private String nome;
 	 private int idade;
-	 private String deveEmitirSom;
+	 public void deveEmitirSom() {
+		System.out.println("Emitindo som");
+	 }
 	 
 	public String getNome() {
 		return nome;
@@ -17,10 +19,6 @@ public class Animal {
 	public void setIdade(int idade) {
 		this.idade = idade;
 	}
-	public String getDeveEmitirSom() {
-		return deveEmitirSom;
-	}
-	public void setDeveEmitirSom(String deveEmitirSom) {
-		this.deveEmitirSom = deveEmitirSom;
-	}
+
+	
 }
