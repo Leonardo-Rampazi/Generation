@@ -54,9 +54,9 @@ INSERT INTO tb_personagens(nome,idade,Gold,LV,raça,poderAtaque,defesa,classes_i
 
 SELECT * FROM tb_personagens WHERE poderAtaque >= 2000;
 SELECT * FROM tb_personagens WHERE defesa >= 1000 and defesa <=2000;
-SELECT * FROM tb_personagens WHERE nome LIKE 'carwin';
+SELECT * FROM tb_personagens WHERE nome LIKE "A%" or "a%";
 SELECT * FROM tb_personagens INNER JOIN tb_classes 
 ON tb_classes.id = tb_personagens.classes_id;
 
 SELECT * FROM tb_personagens INNER JOIN tb_classes 
-ON tb_classes.id = tb_personagens.classes_id WHERE classes_id =3;
+ON tb_classes.id = tb_personagens.classes_id WHERE classes_id =5;
