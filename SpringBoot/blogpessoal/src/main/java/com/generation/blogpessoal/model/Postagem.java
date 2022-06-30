@@ -21,7 +21,7 @@ public class Postagem {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 	@NotNull
-	@Size(min = 5,max =100)
+	@Size(min = 5,max =100,message="no minimo 5 letras no maximo 100 letras")
 	private String titulo;
 	@NotNull
 	@Size(min = 10,max =500)
