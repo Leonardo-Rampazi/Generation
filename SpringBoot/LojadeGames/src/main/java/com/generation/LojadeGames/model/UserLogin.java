@@ -1,4 +1,4 @@
-package com.generation.blogpessoal.model;
+package com.generation.LojadeGames.model;
 
 public class UserLogin {
 
