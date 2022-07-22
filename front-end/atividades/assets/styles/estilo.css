@@ -1,0 +1,19 @@
+p { font: size 20px;}
+    #p-first{
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .p-color{
+      color: #0a7bf4;
+    }
+    img{
+        width: 500px;
+    }
+    .container{
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        border: 5px solid purple;
+        padding: 20px;
+        margin: 20px;
+    }
